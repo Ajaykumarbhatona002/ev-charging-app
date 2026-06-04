@@ -1,0 +1,100 @@
+/* GLOBAL BACKGROUND */
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(180deg, #2b5cff, #5a8bff, #e6ecff);
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: white;
+  color: #2b5cff;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #2b5cff;
+  color: white;
+}
+
+/* 🌊 WAVE */
+.wave {
+  height: 100px;
+  background: url("https://svgshare.com/i/uYx.svg");
+  background-size: cover;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 50px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  width: 260px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+.card img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* ABOUT */
+.about {
+  text-align: center;
+  padding: 60px;
+  color: #0f1419;
+  background: rgba(255,255,255,0.9);
+  margin: 0 20px;
+  border-radius: 20px;
+}
+
+.cards a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.btn-admin {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-admin:hover {
+  transform: scale(1.05);
+}
